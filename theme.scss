@@ -1,0 +1,9 @@
+/*-- scss:defaults --*/
+$primary: #0b2e59;          // Luiss-style navy
+$link-color: #1c5aa6;
+$navbar-bg: $primary;
+$footer-bg: #f4f6f9;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+h1, h2, h3 { color: $primary; }

@@ -1,0 +1,71 @@
+---
+title: "Resources"
+---
+
+# Software
+
+All labs use **STATA** on your own laptop. Stata 17 or later is required (`xtdidregress`, used in Session 4, was introduced in Stata 17).
+
+## User-written packages
+
+Please install the following packages **before the first session**. Run the block once from the Stata command window or a do-file:
+
+``` stata
+* Session 1 — sensitivity analysis
+ssc install sensemakr, replace
+
+* Session 3 — randomization inference
+ssc install ritest, replace
+
+* Session 4 — heterogeneity-robust DiD and event-study plots
+ssc install drdid, replace
+ssc install csdid, replace
+ssc install did_imputation, replace
+ssc install event_plot, replace
+
+* Session 5 — additional IV diagnostics
+ssc install ranktest, replace
+ssc install ivreg2, replace
+```
+
+If `ssc install` fails on the university network, try again from a different connection or download the package files from [SSC](https://ideas.repec.org/s/boc/bocode.html) and install them with `net install`.
+
+## Working with replicable code
+
+Assignments and the final paper must be accompanied by a do-file that reproduces all results. A minimal structure:
+
+``` stata
+* ------------------------------------------------------------
+* Project:  <title>
+* Author:   <name>
+* Date:     <date>
+* Purpose:  reproduces all tables and figures in the paper
+* ------------------------------------------------------------
+version 18
+clear all
+set more off
+set seed 20262027
+
+* Paths: change only this line
+global root "C:/Users/<you>/qmm2627_assignment1"
+
+use "$root/data/mydata.dta", clear
+
+* 1. Data preparation
+* 2. Descriptives
+* 3. Main models
+* 4. Robustness and diagnostics
+```
+
+Set `version` to the Stata version you use, always set a seed when results depend on randomization (bootstrap, randomization inference, matching with ties), and never hard-code paths inside the analysis.
+
+# Open-access texts
+
+-   Huntington-Klein, N. (2022). *The Effect: An Introduction to Research Design and Causality*. <https://theeffectbook.net>
+-   Cunningham, S. (2021). *Causal Inference: The Mixtape*. <https://mixtape.scunning.com>
+
+# Stata documentation
+
+-   Stata manuals (PDF, all volumes): <https://www.stata.com/features/documentation/>
+-   *Stata Structural Equation Modeling Reference Manual* — for Session 2.
+-   *Stata Treatment-Effects Reference Manual* — for Sessions 1, 4 and 5 (`teffects`, `didregress`/`xtdidregress`).

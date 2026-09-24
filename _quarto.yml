@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "QMM 2026-27"
+  description: "Quantitative Methods Masterclass — PhD in Politics, Luiss Guido Carli"
+  site-url: https://francescovisconti.github.io/qmm2627
+  repo-url: https://github.com/francescovisconti/qmm2627
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: sessions.qmd
+        text: Sessions
+      - href: assessment.qmd
+        text: Assessment
+      - href: resources.qmd
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com/francescovisconti/qmm2627
+        aria-label: GitHub repository
+  page-footer:
+    left: "Luiss Guido Carli · PhD in Politics · Quantitative Methods Masterclass 2026-2027"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    anchor-sections: true
+    link-external-newwindow: true
+    highlight-style: github

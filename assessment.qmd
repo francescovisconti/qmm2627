@@ -1,0 +1,50 @@
+---
+title: "Assessment"
+---
+
+Attendance and active participation are required. In case of justified absence, please inform the instructor in advance.
+
+The final grade is expressed in thirtieths (/30). The pass mark is 18/30 and the maximum grade is 30/30 *cum laude*.
+
+| Component | Weight | Covers |
+|-----------|:------:|--------|
+| Participation | 10% | All sessions |
+| Assignment 1 — *Measure and control* | 20% | Sessions 1–2 |
+| Assignment 2 — *Replicate and assess* | 20% | Sessions 3–5 |
+| Final paper | 50% | One method of the course applied to your own research |
+
+# Participation (10%)
+
+Active engagement in class discussions and in the critical presentation of published applications. Come to class having read the required readings for the session.
+
+# Assignments (40%, 20% each)
+
+Two papers of **1,500 words max**, each accompanied by a **do-file that fully reproduces the results**.
+
+1.  **Measure and control** (Sessions 1–2).
+2.  **Replicate and assess** (Sessions 3–5).
+
+Assignments are assessed on the correctness of the analysis, the quality of the justification of choices, the reproducibility of the code and the clarity of presentation.
+
+<!-- Detailed instructions for each assignment: add links here when available
+- [Assignment 1 — instructions](LINK)
+- [Assignment 2 — instructions](LINK)
+-->
+
+# Final paper (50%)
+
+A methodological paper of **up to 3,000 words** in which students apply one of the course methods to their own doctoral research question. The paper must:
+
+-   motivate the choice of design;
+-   state the identifying assumptions;
+-   discuss their plausibility in the student's case.
+
+Reproducibility is also assessed: the paper must be accompanied by code and data, or by instructions for obtaining them. Students present the design of their final paper in the workshop held during Session 6.
+
+# Deadlines
+
+| Deliverable | Due |
+|-------------|-----|
+| Assignment 1 — *Measure and control* | TBA |
+| Assignment 2 — *Replicate and assess* | TBA |
+| Final paper | Within four weeks of the last session |
