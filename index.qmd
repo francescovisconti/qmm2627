@@ -1,6 +1,6 @@
 ---
 title: "Luiss Guido Carli | PhD in Politics | Quantitative Methods Masterclass"
-subtitle: "Academic year 2026-2027 · Second year · First semester"
+subtitle: "Academic year 2026-2027 - Second year - First semester"
 ---
 
 |                    |                                               |
@@ -8,9 +8,7 @@ subtitle: "Academic year 2026-2027 · Second year · First semester"
 | **Programme**      | PhD in Politics — second year                 |
 | **Period**         | First semester, 2026-2027                     |
 | **Instructor**     | Francesco Visconti                            |
-| **Field**          | SPS/04 Scienza politica                       |
-| **Credits**        | 3 CFU                                         |
-| **Format**         | Six two-hour sessions (12 hours)              |
+| **Field**          | Methods of Political Research                 |
 | **Software**       | STATA (on your own laptop)                    |
 
 # Course description
@@ -50,15 +48,16 @@ The course fosters autonomy in methodological updating, training students to rea
 
 Successful completion of the first-year course *Quantitative Methods* (second semester). Familiarity with multiple OLS regression, models for categorical dependent variables, panel data with fixed and random effects, and exploratory factor analysis is assumed.
 
-**Students are required to use STATA on their own laptop.** See the [Resources](resources.qmd) page for the user-written packages to install before the first session.
+**Students are required to use STATA on their own laptop.**
+<!-- See the [Resources](resources.qmd) page for the user-written packages to install before the first session. -->
 
 # Teaching method
 
 Each two-hour session combines three components:
 
 1.  a lecture on the conceptual foundations of the method;
-2.  a seminar discussion of a published application;
-3.  a guided STATA lab on real data, with replicable code provided by the instructor.
+2.  a discussion of an application;
+3.  a guided STATA lab.
 
 The approach is replication-based: students work with data and do-files they can reuse on their own materials. Each technique is introduced from a substantive research problem. Readings marked as *Optional* are for further study and are not required for class discussion.
 
