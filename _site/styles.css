@@ -1,0 +1,21 @@
+/* css styles */
+
+/* Session headers */
+.session-meta {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Boxes for Stata labs */
+.lab {
+  border-left: 4px solid #0b2e59;
+  background: #f4f6f9;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+}
+
+/* Tables */
+table { font-size: 0.95rem; }
+.lab p:last-child { margin-bottom: 0; }

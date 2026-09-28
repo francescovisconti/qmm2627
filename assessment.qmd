@@ -15,11 +15,11 @@ The final grade is expressed in thirtieths (/30). The pass mark is 18/30 and the
 
 # Participation (10%)
 
-Active engagement in class discussions and in the critical presentation of published applications. Come to class having read the required readings for the session.
+Attendance and active engagement in class discussions. Come to class having read the required readings for the session.
 
 # Assignments (40%, 20% each)
 
-Two papers of **1,500 words max**, each accompanied by a **do-file that fully reproduces the results**.
+Two papers of **1,000 words max**, each accompanied by a **do-file that fully reproduces the results**.
 
 1.  **Measure and control** (Sessions 1–2).
 2.  **Replicate and assess** (Sessions 3–5).
@@ -45,6 +45,6 @@ Reproducibility is also assessed: the paper must be accompanied by code and data
 
 | Deliverable | Due |
 |-------------|-----|
-| Assignment 1 — *Measure and control* | TBA |
-| Assignment 2 — *Replicate and assess* | TBA |
+| Assignment 1 — *Measure and control* | By week 4 |
+| Assignment 2 — *Replicate and assess* | By week 6 |
 | Final paper | Within four weeks of the last session |
