@@ -123,39 +123,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#session-1" id="toc-session-1" class="nav-link active" data-scroll-target="#session-1">Session 1 — Beyond control variables</a>
   <ul class="collapse">
   <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
-  <li><a href="#required-readings" id="toc-required-readings" class="nav-link" data-scroll-target="#required-readings">Required readings</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#optional-readings" id="toc-optional-readings" class="nav-link" data-scroll-target="#optional-readings">Optional readings</a></li>
   </ul></li>
-  <li><a href="#session-2" id="toc-session-2" class="nav-link" data-scroll-target="#session-2">Session 2 — Measuring concepts</a>
-  <ul class="collapse">
-  <li><a href="#materials-1" id="toc-materials-1" class="nav-link" data-scroll-target="#materials-1">Materials</a></li>
-  <li><a href="#required-readings-1" id="toc-required-readings-1" class="nav-link" data-scroll-target="#required-readings-1">Required readings</a></li>
-  <li><a href="#optional-readings-1" id="toc-optional-readings-1" class="nav-link" data-scroll-target="#optional-readings-1">Optional readings</a></li>
-  </ul></li>
-  <li><a href="#session-3" id="toc-session-3" class="nav-link" data-scroll-target="#session-3">Session 3 — The experimental benchmark</a>
-  <ul class="collapse">
-  <li><a href="#materials-2" id="toc-materials-2" class="nav-link" data-scroll-target="#materials-2">Materials</a></li>
-  <li><a href="#required-readings-2" id="toc-required-readings-2" class="nav-link" data-scroll-target="#required-readings-2">Required readings</a></li>
-  <li><a href="#optional-readings-2" id="toc-optional-readings-2" class="nav-link" data-scroll-target="#optional-readings-2">Optional readings</a></li>
-  </ul></li>
-  <li><a href="#session-4" id="toc-session-4" class="nav-link" data-scroll-target="#session-4">Session 4 — From fixed effects to difference-in-differences</a>
-  <ul class="collapse">
-  <li><a href="#materials-3" id="toc-materials-3" class="nav-link" data-scroll-target="#materials-3">Materials</a></li>
-  <li><a href="#required-readings-3" id="toc-required-readings-3" class="nav-link" data-scroll-target="#required-readings-3">Required readings</a></li>
-  <li><a href="#optional-readings-3" id="toc-optional-readings-3" class="nav-link" data-scroll-target="#optional-readings-3">Optional readings</a></li>
-  </ul></li>
-  <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5 — Instrumental variables</a>
-  <ul class="collapse">
-  <li><a href="#materials-4" id="toc-materials-4" class="nav-link" data-scroll-target="#materials-4">Materials</a></li>
-  <li><a href="#required-readings-4" id="toc-required-readings-4" class="nav-link" data-scroll-target="#required-readings-4">Required readings</a></li>
-  <li><a href="#optional-readings-4" id="toc-optional-readings-4" class="nav-link" data-scroll-target="#optional-readings-4">Optional readings</a></li>
-  </ul></li>
-  <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">Session 6 — From numbers to cases</a>
-  <ul class="collapse">
-  <li><a href="#materials-5" id="toc-materials-5" class="nav-link" data-scroll-target="#materials-5">Materials</a></li>
-  <li><a href="#required-readings-5" id="toc-required-readings-5" class="nav-link" data-scroll-target="#required-readings-5">Required readings</a></li>
-  <li><a href="#optional-readings-5" id="toc-optional-readings-5" class="nav-link" data-scroll-target="#optional-readings-5">Optional readings</a></li>
-  </ul></li>
+  <li><a href="#session-2" id="toc-session-2" class="nav-link" data-scroll-target="#session-2">Session 2 — Measuring concepts</a></li>
+  <li><a href="#session-3" id="toc-session-3" class="nav-link" data-scroll-target="#session-3">Session 3 — The experimental benchmark</a></li>
+  <li><a href="#session-4" id="toc-session-4" class="nav-link" data-scroll-target="#session-4">Session 4 — From fixed effects to difference-in-differences</a></li>
+  <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5 — Instrumental variables</a></li>
+  <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">Session 6 — From numbers to cases</a></li>
   </ul>
 </nav>
     </div>
@@ -165,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Sessions</h1>
-<p class="subtitle lead">Six two-hour sessions: lecture, seminar discussion of a published application, guided STATA lab</p>
+<p class="subtitle lead">Six two-hour sessions: lecture, discussion, and guided STATA lab</p>
 </div>
 
 
@@ -195,9 +170,9 @@ with the SharePoint / OneDrive sharing link, e.g.
 <p><strong>Regression, identification and selection on observables</strong></p>
 <!-- Date: TBA -->
 <p>What a regression coefficient actually estimates. From “controlling for” to identification: omitted variable bias in explicit form, DAGs as a tool for choosing controls, good and bad controls (colliders, mediators, post-treatment bias). Alternatives to regression under selection on observables: matching, weighting (IPW), doubly robust estimation. What we can say when ignorability is not credible: sensitivity analysis.</p>
-<div class="lab">
-<p><strong>STATA lab:</strong> <code>regress</code> and <code>margins</code>; <code>teffects</code> (<code>ra</code>, <code>ipw</code>, <code>ipwra</code>, <code>psmatch</code>); balance diagnostics; sensitivity analysis.</p>
-</div>
+<!-- ::: lab -->
+<!-- **STATA lab:** `regress` and `margins`; `teffects` (`ra`, `ipw`, `ipwra`, `psmatch`); balance diagnostics; sensitivity analysis. -->
+<!-- ::: -->
 <section id="materials" class="level3">
 <h3 class="anchored" data-anchor-id="materials">Materials</h3>
 <p><em>Slides, do-file and data will be posted here.</em></p>
@@ -205,18 +180,18 @@ with the SharePoint / OneDrive sharing link, e.g.
 <!-- - [Do-file](LINK) -->
 <!-- - [Data](LINK) -->
 </section>
-<section id="required-readings" class="level3">
-<h3 class="anchored" data-anchor-id="required-readings">Required readings</h3>
+<section id="readings" class="level3">
+<h3 class="anchored" data-anchor-id="readings">Readings</h3>
 <ul>
+<li>Keele, L., Stevenson, R. T., &amp; Elwert, F. (2020). The Causal Interpretation of Estimated Associations in Regression Models. <em>Political Science Research and Methods</em>, 8(1), 1–13. <a href="https://doi.org/10.1017/psrm.2019.31" class="uri">https://doi.org/10.1017/psrm.2019.31</a></li>
 <li>Huntington-Klein, N. (2022). <em>The Effect: An Introduction to Research Design and Causality</em>. CRC Press, chs.&nbsp;5, 8 and 13. Open access: <a href="https://theeffectbook.net" class="uri">https://theeffectbook.net</a></li>
-<li>Montgomery, J. M., Nyhan, B., &amp; Torres, M. (2018). How Conditioning on Posttreatment Variables Can Ruin Your Experiment and What to Do About It. <em>American Journal of Political Science</em>, 62(3), 760–775. <a href="https://doi.org/10.1111/ajps.12357" class="uri">https://doi.org/10.1111/ajps.12357</a></li>
 </ul>
 </section>
 <section id="optional-readings" class="level3">
 <h3 class="anchored" data-anchor-id="optional-readings">Optional readings</h3>
 <ul>
 <li>Cinelli, C., &amp; Hazlett, C. (2020). Making Sense of Sensitivity: Extending Omitted Variable Bias. <em>Journal of the Royal Statistical Society Series B</em>, 82(1), 39–67. <a href="https://doi.org/10.1111/rssb.12348" class="uri">https://doi.org/10.1111/rssb.12348</a></li>
-<li>Keele, L., Stevenson, R. T., &amp; Elwert, F. (2020). The Causal Interpretation of Estimated Associations in Regression Models. <em>Political Science Research and Methods</em>, 8(1), 1–13. <a href="https://doi.org/10.1017/psrm.2019.31" class="uri">https://doi.org/10.1017/psrm.2019.31</a></li>
+<li>Montgomery, J. M., Nyhan, B., &amp; Torres, M. (2018). How Conditioning on Posttreatment Variables Can Ruin Your Experiment and What to Do About It. <em>American Journal of Political Science</em>, 62(3), 760–775. <a href="https://doi.org/10.1111/ajps.12357" class="uri">https://doi.org/10.1111/ajps.12357</a></li>
 </ul>
 </section>
 </section>
@@ -225,123 +200,79 @@ with the SharePoint / OneDrive sharing link, e.g.
 <p><strong>From exploratory factor analysis to CFA, SEM and measurement equivalence</strong></p>
 <!-- Date: TBA -->
 <p>Measurement error and its consequences for regression estimates. From the exploratory factor analysis covered in the first year to the confirmatory model: specification, identification, fit indices, modification indices and the risk of specification search. Structural equation models with latent variables. The central problem of comparative research: measurement equivalence across countries and over time (configural, metric and scalar invariance), and what to do when it does not hold.</p>
-<div class="lab">
-<p><strong>STATA lab:</strong> <code>sem</code> and the syntax for latent variables; <code>estat gof</code>, <code>estat mindices</code>; multigroup analysis with <code>group()</code> and <code>estat ginvariant</code>.</p>
-</div>
-<section id="materials-1" class="level3">
-<h3 class="anchored" data-anchor-id="materials-1">Materials</h3>
-<p><em>Slides, do-file and data will be posted here.</em></p>
-<!-- ### [Slides Session 2](LINK "Slides Session 2") -->
-<!-- - [Do-file](LINK) -->
-<!-- - [Data](LINK) -->
-</section>
-<section id="required-readings-1" class="level3">
-<h3 class="anchored" data-anchor-id="required-readings-1">Required readings</h3>
-<ul>
-<li>Acock, A. C. (2013). <em>Discovering Structural Equation Modeling Using Stata</em>. Stata Press, chs.&nbsp;3–4.</li>
-<li>Adcock, R., &amp; Collier, D. (2001). Measurement Validity: A Shared Standard for Qualitative and Quantitative Research. <em>American Political Science Review</em>, 95(3), 529–546. <a href="https://doi.org/10.1017/S0003055401003100" class="uri">https://doi.org/10.1017/S0003055401003100</a></li>
-<li>Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., &amp; Billiet, J. (2014). Measurement Equivalence in Cross-National Research. <em>Annual Review of Sociology</em>, 40, 55–75. <a href="https://doi.org/10.1146/annurev-soc-071913-043137" class="uri">https://doi.org/10.1146/annurev-soc-071913-043137</a></li>
-</ul>
-</section>
-<section id="optional-readings-1" class="level3">
-<h3 class="anchored" data-anchor-id="optional-readings-1">Optional readings</h3>
-<ul>
-<li>Ansolabehere, S., Rodden, J., &amp; Snyder, J. M. (2008). The Strength of Issues: Using Multiple Measures to Gauge Preference Stability, Ideological Constraint, and Issue Voting. <em>American Political Science Review</em>, 102(2), 215–232. <a href="https://doi.org/10.1017/S0003055408080210" class="uri">https://doi.org/10.1017/S0003055408080210</a></li>
-</ul>
-</section>
+<!-- ::: lab -->
+<!-- **STATA lab:** `sem` and the syntax for latent variables; `estat gof`, `estat mindices`; multigroup analysis with `group()` and `estat ginvariant`. -->
+<!-- ::: -->
+<!-- ### Materials -->
+<!-- *Slides, do-file and data will be posted here.* -->
+<!-- <!-- ### [Slides Session 2](LINK "Slides Session 2") -->
+<p>–&gt; <!-- <!-- - [Do-file](LINK) --> –&gt; <!-- <!-- - [Data](LINK) --> –&gt;</p>
+<!-- ### Required readings -->
+<!-- -   Acock, A. C. (2013). *Discovering Structural Equation Modeling Using Stata*. Stata Press, chs. 3–4. -->
+<!-- -   Adcock, R., & Collier, D. (2001). Measurement Validity: A Shared Standard for Qualitative and Quantitative Research. *American Political Science Review*, 95(3), 529–546. <https://doi.org/10.1017/S0003055401003100> -->
+<!-- -   Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., & Billiet, J. (2014). Measurement Equivalence in Cross-National Research. *Annual Review of Sociology*, 40, 55–75. <https://doi.org/10.1146/annurev-soc-071913-043137> -->
+<!-- ### Optional readings -->
+<!-- -   Ansolabehere, S., Rodden, J., & Snyder, J. M. (2008). The Strength of Issues: Using Multiple Measures to Gauge Preference Stability, Ideological Constraint, and Issue Voting. *American Political Science Review*, 102(2), 215–232. <https://doi.org/10.1017/S0003055408080210> -->
 </section>
 <section id="session-3" class="level1">
 <h1>Session 3 — The experimental benchmark</h1>
 <p><strong>Experiments, survey experiments and conjoint designs</strong></p>
 <!-- Date: TBA -->
 <p>Randomization as the solution to the identification problem: what changes, in a regression, when treatment is assigned by the researcher. Laboratory, field and survey experiments. The main survey-experimental designs in research on public opinion and electoral behavior: vignette, framing, priming, list and endorsement experiments. Conjoint designs: profile randomization, AMCEs and marginal means, and the assumptions that underpin them (stability, no carryover or order effects, the distribution of attributes). Subgroup analysis and effect heterogeneity: interactions, marginal effects, and the most common errors in their specification and interpretation. Statistical power, pre-registration, multiple comparisons. Demand effects, non-probability samples and external validity.</p>
-<div class="lab">
-<p><strong>STATA lab:</strong> estimating an experimental effect with randomization inference; estimating AMCEs and marginal means from conjoint data with standard errors clustered by respondent; <code>margins</code> and <code>marginsplot</code> for conditional effects; power analysis with <code>power</code>.</p>
-</div>
-<section id="materials-2" class="level3">
-<h3 class="anchored" data-anchor-id="materials-2">Materials</h3>
-<p><em>Slides, do-file and data will be posted here.</em></p>
-<!-- ### [Slides Session 3](LINK "Slides Session 3") -->
-<!-- - [Do-file](LINK) -->
-<!-- - [Data](LINK) -->
-</section>
-<section id="required-readings-2" class="level3">
-<h3 class="anchored" data-anchor-id="required-readings-2">Required readings</h3>
-<ul>
-<li>Mutz, D. C. (2011). <em>Population-Based Survey Experiments</em>. Princeton University Press, chs.&nbsp;1–2.</li>
-<li>Bansak, K., Hainmueller, J., Hopkins, D. J., &amp; Yamamoto, T. (2021). Conjoint Survey Experiments. In J. N. Druckman &amp; D. P. Green (eds.), <em>Advances in Experimental Political Science</em> (pp.&nbsp;19–41). Cambridge University Press.</li>
-<li>Hainmueller, J., Hopkins, D. J., &amp; Yamamoto, T. (2014). Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments. <em>Political Analysis</em>, 22(1), 1–30. <a href="https://doi.org/10.1093/pan/mpt024" class="uri">https://doi.org/10.1093/pan/mpt024</a></li>
-</ul>
-</section>
-<section id="optional-readings-2" class="level3">
-<h3 class="anchored" data-anchor-id="optional-readings-2">Optional readings</h3>
-<ul>
-<li>Mummolo, J., &amp; Peterson, E. (2019). Demand Effects in Survey Experiments: An Empirical Assessment. <em>American Political Science Review</em>, 113(2), 517–529. <a href="https://doi.org/10.1017/S0003055418000837" class="uri">https://doi.org/10.1017/S0003055418000837</a></li>
-<li>Leeper, T. J., Hobolt, S. B., &amp; Tilley, J. (2020). Measuring Subgroup Preferences in Conjoint Experiments. <em>Political Analysis</em>, 28(2), 207–221. <a href="https://doi.org/10.1017/pan.2019.30" class="uri">https://doi.org/10.1017/pan.2019.30</a></li>
-<li>Hainmueller, J., Mummolo, J., &amp; Xu, Y. (2019). How Much Should We Trust Estimates from Multiplicative Interaction Models? Simple Tools to Improve Empirical Practice. <em>Political Analysis</em>, 27(2), 163–192. <a href="https://doi.org/10.1017/pan.2018.46" class="uri">https://doi.org/10.1017/pan.2018.46</a></li>
-</ul>
-</section>
+<!-- ::: lab -->
+<!-- **STATA lab:** estimating an experimental effect with randomization inference; estimating AMCEs and marginal means from conjoint data with standard errors clustered by respondent; `margins` and `marginsplot` for conditional effects; power analysis with `power`. -->
+<!-- ::: -->
+<!-- ### Materials -->
+<!-- *Slides, do-file and data will be posted here.* -->
+<!-- <!-- ### [Slides Session 3](LINK "Slides Session 3") -->
+<p>–&gt; <!-- <!-- - [Do-file](LINK) --> –&gt; <!-- <!-- - [Data](LINK) --> –&gt;</p>
+<!-- ### Required readings -->
+<!-- -   Mutz, D. C. (2011). *Population-Based Survey Experiments*. Princeton University Press, chs. 1–2. -->
+<!-- -   Bansak, K., Hainmueller, J., Hopkins, D. J., & Yamamoto, T. (2021). Conjoint Survey Experiments. In J. N. Druckman & D. P. Green (eds.), *Advances in Experimental Political Science* (pp. 19–41). Cambridge University Press. -->
+<!-- -   Hainmueller, J., Hopkins, D. J., & Yamamoto, T. (2014). Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments. *Political Analysis*, 22(1), 1–30. <https://doi.org/10.1093/pan/mpt024> -->
+<!-- ### Optional readings -->
+<!-- -   Mummolo, J., & Peterson, E. (2019). Demand Effects in Survey Experiments: An Empirical Assessment. *American Political Science Review*, 113(2), 517–529. <https://doi.org/10.1017/S0003055418000837> -->
+<!-- -   Leeper, T. J., Hobolt, S. B., & Tilley, J. (2020). Measuring Subgroup Preferences in Conjoint Experiments. *Political Analysis*, 28(2), 207–221. <https://doi.org/10.1017/pan.2019.30> -->
+<!-- -   Hainmueller, J., Mummolo, J., & Xu, Y. (2019). How Much Should We Trust Estimates from Multiplicative Interaction Models? Simple Tools to Improve Empirical Practice. *Political Analysis*, 27(2), 163–192. <https://doi.org/10.1017/pan.2018.46> -->
 </section>
 <section id="session-4" class="level1">
 <h1>Session 4 — From fixed effects to difference-in-differences</h1>
 <p><strong>DiD, parallel trends, staggered adoption</strong></p>
 <!-- Date: TBA -->
 <p>DiD as a natural extension of the panel models students already know, and as an attempt to reconstruct the counterfactual that an experiment guarantees by design. The parallel trends assumption: what it implies, how it can be argued for, and why it cannot be tested directly. Event-study specifications and pre-trends. The problem with two-way fixed effects under staggered treatment adoption and heterogeneous effects: negative weights and “bad” comparisons. Heterogeneity-robust estimators. A brief introduction to synthetic control.</p>
-<div class="lab">
-<p><strong>STATA lab:</strong> <code>xtdidregress</code> and <code>estat trendplots</code>; the <code>csdid</code> and <code>did_imputation</code> estimators; building an event-study plot.</p>
-</div>
-<section id="materials-3" class="level3">
-<h3 class="anchored" data-anchor-id="materials-3">Materials</h3>
-<p><em>Slides, do-file and data will be posted here.</em></p>
-<!-- ### [Slides Session 4](LINK "Slides Session 4") -->
-<!-- - [Do-file](LINK) -->
-<!-- - [Data](LINK) -->
-</section>
-<section id="required-readings-3" class="level3">
-<h3 class="anchored" data-anchor-id="required-readings-3">Required readings</h3>
-<ul>
-<li>Huntington-Klein, N. (2022). <em>The Effect</em>. CRC Press, ch.&nbsp;18. Open access: <a href="https://theeffectbook.net" class="uri">https://theeffectbook.net</a></li>
-<li>Roth, J., Sant’Anna, P. H. C., Bilinski, A., &amp; Poe, J. (2023). What’s Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature. <em>Journal of Econometrics</em>, 235(2), 2218–2244 (sections indicated in class). <a href="https://doi.org/10.1016/j.jeconom.2023.03.008" class="uri">https://doi.org/10.1016/j.jeconom.2023.03.008</a></li>
-</ul>
-</section>
-<section id="optional-readings-3" class="level3">
-<h3 class="anchored" data-anchor-id="optional-readings-3">Optional readings</h3>
-<ul>
-<li>Cunningham, S. (2021). <em>Causal Inference: The Mixtape</em>. Yale University Press, ch.&nbsp;9. Open access: <a href="https://mixtape.scunning.com" class="uri">https://mixtape.scunning.com</a></li>
-<li>Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. <em>Journal of Econometrics</em>, 225(2), 254–277. <a href="https://doi.org/10.1016/j.jeconom.2021.03.014" class="uri">https://doi.org/10.1016/j.jeconom.2021.03.014</a></li>
-<li>Abadie, A., Diamond, A., &amp; Hainmueller, J. (2015). Comparative Politics and the Synthetic Control Method. <em>American Journal of Political Science</em>, 59(2), 495–510. <a href="https://doi.org/10.1111/ajps.12116" class="uri">https://doi.org/10.1111/ajps.12116</a></li>
-</ul>
-</section>
+<!-- ::: lab -->
+<!-- **STATA lab:** `xtdidregress` and `estat trendplots`; the `csdid` and `did_imputation` estimators; building an event-study plot. -->
+<!-- ::: -->
+<!-- ### Materials -->
+<!-- *Slides, do-file and data will be posted here.* -->
+<!-- <!-- ### [Slides Session 4](LINK "Slides Session 4") -->
+<p>–&gt; <!-- <!-- - [Do-file](LINK) --> –&gt; <!-- <!-- - [Data](LINK) --> –&gt;</p>
+<!-- ### Required readings -->
+<!-- -   Huntington-Klein, N. (2022). *The Effect*. CRC Press, ch. 18. Open access: <https://theeffectbook.net> -->
+<!-- -   Roth, J., Sant'Anna, P. H. C., Bilinski, A., & Poe, J. (2023). What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature. *Journal of Econometrics*, 235(2), 2218–2244 (sections indicated in class). <https://doi.org/10.1016/j.jeconom.2023.03.008> -->
+<!-- ### Optional readings -->
+<!-- -   Cunningham, S. (2021). *Causal Inference: The Mixtape*. Yale University Press, ch. 9. Open access: <https://mixtape.scunning.com> -->
+<!-- -   Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 225(2), 254–277. <https://doi.org/10.1016/j.jeconom.2021.03.014> -->
+<!-- -   Abadie, A., Diamond, A., & Hainmueller, J. (2015). Comparative Politics and the Synthetic Control Method. *American Journal of Political Science*, 59(2), 495–510. <https://doi.org/10.1111/ajps.12116> -->
 </section>
 <section id="session-5" class="level1">
 <h1>Session 5 — Instrumental variables</h1>
 <p><strong>Endogeneity, relevance, exclusion</strong></p>
 <!-- Date: TBA -->
 <p>Endogeneity as a structural problem and the logic of two-stage least squares. The three assumptions (relevance, exclusion, monotonicity) and their epistemic status: two of them can be defended only through argument. What an instrument actually estimates: the LATE, compliers, and the problem of the target population, with an explicit return to the effect heterogeneity discussed in Session 3. Weak instruments and finite-sample bias. A critical review of the instruments most widely used in political science (weather, historical instruments, shift-share) and of the critiques they have attracted. Experimental encouragement designs and regression discontinuity as special cases.</p>
-<div class="lab">
-<p><strong>STATA lab:</strong> <code>ivregress 2sls</code> and <code>estat firststage</code>; first-stage F-statistic and weak-instrument tests; systematic comparison of OLS and IV estimates.</p>
-</div>
-<section id="materials-4" class="level3">
-<h3 class="anchored" data-anchor-id="materials-4">Materials</h3>
-<p><em>Slides, do-file and data will be posted here.</em></p>
-<!-- ### [Slides Session 5](LINK "Slides Session 5") -->
-<!-- - [Do-file](LINK) -->
-<!-- - [Data](LINK) -->
-</section>
-<section id="required-readings-4" class="level3">
-<h3 class="anchored" data-anchor-id="required-readings-4">Required readings</h3>
-<ul>
-<li>Huntington-Klein, N. (2022). <em>The Effect</em>. CRC Press, ch.&nbsp;19. Open access: <a href="https://theeffectbook.net" class="uri">https://theeffectbook.net</a></li>
-<li>Sovey, A. J., &amp; Green, D. P. (2011). Instrumental Variables Estimation in Political Science: A Readers’ Guide. <em>American Journal of Political Science</em>, 55(1), 188–200. <a href="https://doi.org/10.1111/j.1540-5907.2010.00477.x" class="uri">https://doi.org/10.1111/j.1540-5907.2010.00477.x</a></li>
-</ul>
-</section>
-<section id="optional-readings-4" class="level3">
-<h3 class="anchored" data-anchor-id="optional-readings-4">Optional readings</h3>
-<ul>
-<li>Lal, A., Lockhart, M., Xu, Y., &amp; Zu, Z. (2024). How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on 67 Replicated Studies. <em>Political Analysis</em>, 32(4), 521–540. Preprint: <a href="https://arxiv.org/abs/2303.11399" class="uri">https://arxiv.org/abs/2303.11399</a></li>
-<li>Mellon, J. (2024). Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations for Studies Using Weather as an Instrumental Variable. <em>American Journal of Political Science</em> (online first).</li>
-</ul>
-</section>
+<!-- ::: lab -->
+<!-- **STATA lab:** `ivregress 2sls` and `estat firststage`; first-stage F-statistic and weak-instrument tests; systematic comparison of OLS and IV estimates. -->
+<!-- ::: -->
+<!-- ### Materials -->
+<!-- *Slides, do-file and data will be posted here.* -->
+<!-- <!-- ### [Slides Session 5](LINK "Slides Session 5") -->
+<p>–&gt; <!-- <!-- - [Do-file](LINK) --> –&gt; <!-- <!-- - [Data](LINK) --> –&gt;</p>
+<!-- ### Required readings -->
+<!-- -   Huntington-Klein, N. (2022). *The Effect*. CRC Press, ch. 19. Open access: <https://theeffectbook.net> -->
+<!-- -   Sovey, A. J., & Green, D. P. (2011). Instrumental Variables Estimation in Political Science: A Readers' Guide. *American Journal of Political Science*, 55(1), 188–200. <https://doi.org/10.1111/j.1540-5907.2010.00477.x> -->
+<!-- ### Optional readings -->
+<!-- -   Lal, A., Lockhart, M., Xu, Y., & Zu, Z. (2024). How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on 67 Replicated Studies. *Political Analysis*, 32(4), 521–540. Preprint: <https://arxiv.org/abs/2303.11399> -->
+<!-- -   Mellon, J. (2024). Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations for Studies Using Weather as an Instrumental Variable. *American Journal of Political Science* (online first). -->
 </section>
 <section id="session-6" class="level1">
 <h1>Session 6 — From numbers to cases</h1>
@@ -349,32 +280,21 @@ with the SharePoint / OneDrive sharing link, e.g.
 <!-- Date: TBA -->
 <p>The inherent limits of the quantitative toolkit: what a well-identified estimate still cannot tell us. Nested analysis as a research architecture. Case selection following a statistical analysis: typical, deviant and influential cases, and the logic behind the choice. Process tracing as a tool for investigating mechanisms. Qualitative evidence in support of measurement validity (returning to Session 2), the interpretation of experimental treatments (Session 3), and arguments about identifying assumptions (Sessions 4 and 5). Quant–qual and qual–quant sequences. Transparency, replicability and open data.</p>
 <p><strong>The session includes a workshop in which students present the design of their final paper.</strong></p>
-<div class="lab">
-<p><strong>In-class activity:</strong> case selection based on the residuals and predicted values of a model estimated in class; discussion of individual projects.</p>
-</div>
-<section id="materials-5" class="level3">
-<h3 class="anchored" data-anchor-id="materials-5">Materials</h3>
-<p><em>Slides, do-file and data will be posted here.</em></p>
-<!-- ### [Slides Session 6](LINK "Slides Session 6") -->
-<!-- - [Do-file](LINK) -->
-<!-- - [Data](LINK) -->
-</section>
-<section id="required-readings-5" class="level3">
-<h3 class="anchored" data-anchor-id="required-readings-5">Required readings</h3>
-<ul>
-<li>Lieberman, E. S. (2005). Nested Analysis as a Mixed-Method Strategy for Comparative Research. <em>American Political Science Review</em>, 99(3), 435–452. <a href="https://doi.org/10.1017/S0003055405051762" class="uri">https://doi.org/10.1017/S0003055405051762</a></li>
-<li>Seawright, J., &amp; Gerring, J. (2008). Case Selection Techniques in Case Study Research: A Menu of Qualitative and Quantitative Options. <em>Political Research Quarterly</em>, 61(2), 294–308. <a href="https://doi.org/10.1177/1065912907313077" class="uri">https://doi.org/10.1177/1065912907313077</a></li>
-</ul>
-</section>
-<section id="optional-readings-5" class="level3">
-<h3 class="anchored" data-anchor-id="optional-readings-5">Optional readings</h3>
-<ul>
-<li>Goertz, G. (2017). <em>Multimethod Research, Causal Mechanisms, and Case Studies</em>. Princeton University Press, chs.&nbsp;1–2.</li>
-<li>Weller, N., &amp; Barnes, J. (2014). <em>Finding Pathways: Mixed-Method Research for Studying Causal Mechanisms</em>. Cambridge University Press, ch.&nbsp;1.</li>
-</ul>
+<!-- ::: lab -->
+<!-- **In-class activity:** case selection based on the residuals and predicted values of a model estimated in class; discussion of individual projects. -->
+<!-- ::: -->
+<!-- ### Materials -->
+<!-- *Slides, do-file and data will be posted here.* -->
+<!-- <!-- ### [Slides Session 6](LINK "Slides Session 6") -->
+<p>–&gt; <!-- <!-- - [Do-file](LINK) --> –&gt; <!-- <!-- - [Data](LINK) --> –&gt;</p>
+<!-- ### Required readings -->
+<!-- -   Lieberman, E. S. (2005). Nested Analysis as a Mixed-Method Strategy for Comparative Research. *American Political Science Review*, 99(3), 435–452. <https://doi.org/10.1017/S0003055405051762> -->
+<!-- -   Seawright, J., & Gerring, J. (2008). Case Selection Techniques in Case Study Research: A Menu of Qualitative and Quantitative Options. *Political Research Quarterly*, 61(2), 294–308. <https://doi.org/10.1177/1065912907313077> -->
+<!-- ### Optional readings -->
+<!-- -   Goertz, G. (2017). *Multimethod Research, Causal Mechanisms, and Case Studies*. Princeton University Press, chs. 1–2. -->
+<!-- -   Weller, N., & Barnes, J. (2014). *Finding Pathways: Mixed-Method Research for Studying Causal Mechanisms*. Cambridge University Press, ch. 1. -->
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

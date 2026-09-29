@@ -31,9 +31,9 @@ What a regression coefficient actually estimates. From "controlling for" to iden
 
 *Slides, do-file and data will be posted here.*
 
-<!-- ### [Slides Session 1](LINK "Slides Session 1") -->
-<!-- - [Do-file](LINK) -->
-<!-- - [Data](LINK) -->
+### [Slides Session 1](https://luiss-my.sharepoint.com/:b:/g/personal/fvisconti_luiss_it/IQDCdMug71xPQrxeOBGeIVi0AYUiMurtE9AzXn4Ricy0-lw?e=sfpeE9 "Slides Session 1")
+ - [Do-file](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQCCf-07XcgSRpj2HBsWaMJxAQ5a_KeS2DPk3CdhDD62PMo?e=36xDte)
+
 
 ### Readings
 
