@@ -66,15 +66,17 @@ Measurement error and its consequences for regression estimates. From the explor
 <!-- <!-- - [Do-file](LINK) --> -->
 <!-- <!-- - [Data](LINK) --> -->
 
-<!-- ### Required readings -->
+### Readings
 
-<!-- -   Acock, A. C. (2013). *Discovering Structural Equation Modeling Using Stata*. Stata Press, chs. 3–4. -->
-<!-- -   Adcock, R., & Collier, D. (2001). Measurement Validity: A Shared Standard for Qualitative and Quantitative Research. *American Political Science Review*, 95(3), 529–546. <https://doi.org/10.1017/S0003055401003100> -->
-<!-- -   Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., & Billiet, J. (2014). Measurement Equivalence in Cross-National Research. *Annual Review of Sociology*, 40, 55–75. <https://doi.org/10.1146/annurev-soc-071913-043137> -->
+- Acock, A. C. (2013). *Discovering Structural Equation Modeling Using Stata*. Stata Press, chs. 1,2 and 5. -->
 
-<!-- ### Optional readings -->
+-  Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., & Billiet, J. (2014). Measurement Equivalence in Cross-National Research. *Annual Review of Sociology*, 40, 55–75. <https://doi.org/10.1146/annurev-soc-071913-043137>
 
-<!-- -   Ansolabehere, S., Rodden, J., & Snyder, J. M. (2008). The Strength of Issues: Using Multiple Measures to Gauge Preference Stability, Ideological Constraint, and Issue Voting. *American Political Science Review*, 102(2), 215–232. <https://doi.org/10.1017/S0003055408080210> -->
+### Optional readings
+
+-   Adcock, R., & Collier, D. (2001). Measurement Validity: A Shared Standard for Qualitative and Quantitative Research. *American Political Science Review*, 95(3), 529–546. <https://doi.org/10.1017/S0003055401003100> 
+
+-   Ansolabehere, S., Rodden, J., & Snyder, J. M. (2008). The Strength of Issues: Using Multiple Measures to Gauge Preference Stability, Ideological Constraint, and Issue Voting. *American Political Science Review*, 102(2), 215–232. <https://doi.org/10.1017/S0003055408080210> 
 
 # Session 3 — The experimental benchmark {#session-3}
 
