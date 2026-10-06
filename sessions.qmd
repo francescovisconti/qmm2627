@@ -62,7 +62,7 @@ Measurement error and its consequences for regression estimates. From the explor
 
 *Slides, do-file and data will be posted here.*
 
-### [Material Session 2](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQABtM6KX0_DSo5_Csv4I0apATRFB81PCMVu6AKRJRSLdPw?e=aMSNel "Material Session 2") 
+### [Material Session 2](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQA_IJ4rCXgcTLSkALs3KVZQAd2gRSXo6fwX_Sg6LMl0dA8?e=r3ajRQ "Material Session 2") 
 
 
 ### Readings

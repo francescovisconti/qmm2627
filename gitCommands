@@ -1,7 +1,7 @@
 #Git commands
 
 git add .
-git commit -m "Session 1"
+git commit -m "Session 2"
 git push origin main
 
 #One-time only (creates the gh-pages branch and _publish.yml)
