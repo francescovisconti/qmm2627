@@ -62,7 +62,7 @@ Measurement error and its consequences for regression estimates. From the explor
 
 *Slides, do-file and data will be posted here.*
 
-### [Material Session 2](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQA_IJ4rCXgcTLSkALs3KVZQAd2gRSXo6fwX_Sg6LMl0dA8?e=r3ajRQ "Material Session 2") 
+### [Material Session 2](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQD2jD8m3h7WSLcL9jgHglywAcY57J4FkYJMhnWoSriAXrI?e=RssK5p "Material Session 2") 
 
 
 ### Readings
@@ -71,9 +71,11 @@ Measurement error and its consequences for regression estimates. From the explor
 
 ### Optional readings
 
+-   Adcock, R., & Collier, D. (2001). Measurement Validity: A Shared Standard for Qualitative and Quantitative Research. *American Political Science Review*, 95(3), 529–546. <https://doi.org/10.1017/S0003055401003100> 
+
 -  Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., & Billiet, J. (2014). Measurement Equivalence in Cross-National Research. *Annual Review of Sociology*, 40, 55–75. <https://doi.org/10.1146/annurev-soc-071913-043137>
 
--   Adcock, R., & Collier, D. (2001). Measurement Validity: A Shared Standard for Qualitative and Quantitative Research. *American Political Science Review*, 95(3), 529–546. <https://doi.org/10.1017/S0003055401003100> 
+
 
 
 # Session 3 — The experimental benchmark {#session-3}
