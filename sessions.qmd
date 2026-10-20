@@ -90,17 +90,23 @@ Randomization as the solution to the identification problem: what changes, in a 
 <!-- **STATA lab:** estimating an experimental effect with randomization inference; estimating AMCEs and marginal means from conjoint data with standard errors clustered by respondent; `margins` and `marginsplot` for conditional effects; power analysis with `power`. -->
 <!-- ::: -->
 
-<!-- ### Materials -->
+### Materials
 
+### [Material Session 3](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQB8Mx1h5qtqRpR5Lxnv9qTcASinxshSAeTQ0Aad0Xbw0o8?e=jU46tq "Material Session 3") 
 <!-- *Slides, do-file and data will be posted here.* -->
 
 <!-- <!-- ### [Slides Session 3](LINK "Slides Session 3") --> -->
 <!-- <!-- - [Do-file](LINK) --> -->
 <!-- <!-- - [Data](LINK) --> -->
 
-<!-- ### Required readings -->
+### Required readings
 
-<!-- -   Mutz, D. C. (2011). *Population-Based Survey Experiments*. Princeton University Press, chs. 1–2. -->
+- Mutz, D. C. (2011). *Population-Based Survey Experiments*. Princeton University Press, chs. 1.
+
+- Dunning, T. (2012). *Natural experiments in the social sciences a design-based approach*. Cambrdige University Press, ch. 1.
+
+- Levy Paluck, E. (2010). The promising integration of qualitative methods and field experiments. The ANNALS of the American Academy of Political and Social Science, 628(1), 59-71. <https://doi.org/10.1177/0002716209351510>
+
 <!-- -   Bansak, K., Hainmueller, J., Hopkins, D. J., & Yamamoto, T. (2021). Conjoint Survey Experiments. In J. N. Druckman & D. P. Green (eds.), *Advances in Experimental Political Science* (pp. 19–41). Cambridge University Press. -->
 <!-- -   Hainmueller, J., Hopkins, D. J., & Yamamoto, T. (2014). Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments. *Political Analysis*, 22(1), 1–30. <https://doi.org/10.1093/pan/mpt024> -->
 
