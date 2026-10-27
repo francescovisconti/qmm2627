@@ -118,27 +118,25 @@ Randomization as the solution to the identification problem: what changes, in a 
 
 # Session 4 — From fixed effects to difference-in-differences {#session-4}
 
-**DiD, parallel trends, staggered adoption**
+**DiD, parallel trends**
 
 <!-- Date: TBA -->
 
-DiD as a natural extension of the panel models students already know, and as an attempt to reconstruct the counterfactual that an experiment guarantees by design. The parallel trends assumption: what it implies, how it can be argued for, and why it cannot be tested directly. Event-study specifications and pre-trends. The problem with two-way fixed effects under staggered treatment adoption and heterogeneous effects: negative weights and "bad" comparisons. Heterogeneity-robust estimators. A brief introduction to synthetic control.
+DiD as a natural extension of the panel models students already know, and as an attempt to reconstruct the counterfactual that an experiment guarantees by design. The parallel trends assumption: what it implies, how it can be argued for, and why it cannot be tested directly. Event-study specifications and pre-trends.
 
 <!-- ::: lab -->
 <!-- **STATA lab:** `xtdidregress` and `estat trendplots`; the `csdid` and `did_imputation` estimators; building an event-study plot. -->
 <!-- ::: -->
 
-<!-- ### Materials -->
+### Materials
 
-<!-- *Slides, do-file and data will be posted here.* -->
+### [Material Session 4](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQB5oqfWgcLbS4zgG9d4IDnEATcVo88A_07EBFb-o0RSQWI?e=EP8v4g "Material Session 4") 
 
-<!-- <!-- ### [Slides Session 4](LINK "Slides Session 4") --> -->
-<!-- <!-- - [Do-file](LINK) --> -->
-<!-- <!-- - [Data](LINK) --> -->
+### Required readings
 
-<!-- ### Required readings -->
+-   Huntington-Klein, N. (2022). *The Effect*. CRC Press, ch. 18. Open access: <https://theeffectbook.net> 
 
-<!-- -   Huntington-Klein, N. (2022). *The Effect*. CRC Press, ch. 18. Open access: <https://theeffectbook.net> -->
+
 <!-- -   Roth, J., Sant'Anna, P. H. C., Bilinski, A., & Poe, J. (2023). What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature. *Journal of Econometrics*, 235(2), 2218–2244 (sections indicated in class). <https://doi.org/10.1016/j.jeconom.2023.03.008> -->
 
 <!-- ### Optional readings -->
