@@ -145,35 +145,28 @@ DiD as a natural extension of the panel models students already know, and as an 
 <!-- -   Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 225(2), 254–277. <https://doi.org/10.1016/j.jeconom.2021.03.014> -->
 <!-- -   Abadie, A., Diamond, A., & Hainmueller, J. (2015). Comparative Politics and the Synthetic Control Method. *American Journal of Political Science*, 59(2), 495–510. <https://doi.org/10.1111/ajps.12116> -->
 
-# Session 5 — Instrumental variables {#session-5}
+# Session 5 — Instrumental variables and regression discontinuity {#session-5}
 
-**Endogeneity, relevance, exclusion**
+**Borrowing a randomizer, finding a lottery at the cutoff**
 
 <!-- Date: TBA -->
 
-Endogeneity as a structural problem and the logic of two-stage least squares. The three assumptions (relevance, exclusion, monotonicity) and their epistemic status: two of them can be defended only through argument. What an instrument actually estimates: the LATE, compliers, and the problem of the target population, with an explicit return to the effect heterogeneity discussed in Session 3. Weak instruments and finite-sample bias. A critical review of the instruments most widely used in political science (weather, historical instruments, shift-share) and of the critiques they have attracted. Experimental encouragement designs and regression discontinuity as special cases.
+Two designs that use only the part of the treatment assigned by something outside the units' choices. Instrumental variables: the logic of the instrument as a "mould" that isolates exogenous variation, with a return to experiments with non-compliance from Session 3; first stage, reduced form and the Wald estimator; two-stage least squares. The three assumptions (relevance, exclusion, monotonicity) and their epistemic status: only relevance can be checked in the data. What an instrument estimates: the LATE and the compliers, and a return to the effect heterogeneity of Session 3. Weak instruments, the first-stage F-statistic and Anderson–Rubin intervals. Instruments used in political science (weather, draft lotteries, encouragements, shift-share) and their critiques; why Foos and Bischof (Session 4) do not instrument newspaper readership with the boycott. Regression discontinuity: running variable, cutoff and bandwidth; continuity as the identifying assumption; close elections and population thresholds; estimation by local linear regression, the bandwidth trade-off, placebo outcomes and density tests. Fuzzy RDD as an instrumental-variables design at the cutoff. What both designs estimate, and the role of qualitative knowledge of the assignment process.
 
 <!-- ::: lab -->
-<!-- **STATA lab:** `ivregress 2sls` and `estat firststage`; first-stage F-statistic and weak-instrument tests; systematic comparison of OLS and IV estimates. -->
+<!-- **STATA lab:** IV — first stage, reduced form and Wald estimate by hand, `ivregress 2sls` and `estat firststage` (Cai, de Janvry & Sadoulet 2015). RDD — binned plot, sharp RDD by OLS with interactions and a triangular kernel, bandwidth sensitivity, placebo outcomes (Manacorda, Miguel & Vigorito 2011). Optional: `weakiv`, `rdrobust`, `rddensity`. -->
 <!-- ::: -->
 
-<!-- ### Materials -->
+### Materials
 
-<!-- *Slides, do-file and data will be posted here.* -->
+*Slides, do-file and data will be posted here.*
 
-<!-- <!-- ### [Slides Session 5](LINK "Slides Session 5") --> -->
-<!-- <!-- - [Do-file](LINK) --> -->
-<!-- <!-- - [Data](LINK) --> -->
+### [Material Session 5](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQA1JDGNFKz7TqwhyW_b-jDYAQJ-cK1HFprZwTALp-vkTzQ?e=cnU6fi "Material Session 5")
 
-<!-- ### Required readings -->
+### Required readings
 
-<!-- -   Huntington-Klein, N. (2022). *The Effect*. CRC Press, ch. 19. Open access: <https://theeffectbook.net> -->
-<!-- -   Sovey, A. J., & Green, D. P. (2011). Instrumental Variables Estimation in Political Science: A Readers' Guide. *American Journal of Political Science*, 55(1), 188–200. <https://doi.org/10.1111/j.1540-5907.2010.00477.x> -->
+-   Huntington-Klein, N. (2022). *The Effect: An Introduction to Research Design and Causality*. CRC Press, chs. 19 and 20. Open access: <https://theeffectbook.net>
 
-<!-- ### Optional readings -->
-
-<!-- -   Lal, A., Lockhart, M., Xu, Y., & Zu, Z. (2024). How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on 67 Replicated Studies. *Political Analysis*, 32(4), 521–540. Preprint: <https://arxiv.org/abs/2303.11399> -->
-<!-- -   Mellon, J. (2024). Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations for Studies Using Weather as an Instrumental Variable. *American Journal of Political Science* (online first). -->
 
 # Session 6 — From numbers to cases {#session-6}
 
