@@ -160,7 +160,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#material-session-4" id="toc-material-session-4" class="nav-link" data-scroll-target="#material-session-4">Material Session 4</a></li>
   <li><a href="#required-readings-1" id="toc-required-readings-1" class="nav-link" data-scroll-target="#required-readings-1">Required readings</a></li>
   </ul></li>
-  <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5 — Instrumental variables</a></li>
+  <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5 — Instrumental variables and regression discontinuity</a>
+  <ul class="collapse">
+  <li><a href="#materials-4" id="toc-materials-4" class="nav-link" data-scroll-target="#materials-4">Materials</a></li>
+  <li><a href="#material-session-5" id="toc-material-session-5" class="nav-link" data-scroll-target="#material-session-5">Material Session 5</a></li>
+  <li><a href="#required-readings-2" id="toc-required-readings-2" class="nav-link" data-scroll-target="#required-readings-2">Required readings</a></li>
+  </ul></li>
   <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">Session 6 — From numbers to cases</a></li>
   </ul>
 </nav>
@@ -319,23 +324,26 @@ with the SharePoint / OneDrive sharing link, e.g.
 </section>
 </section>
 <section id="session-5" class="level1">
-<h1>Session 5 — Instrumental variables</h1>
-<p><strong>Endogeneity, relevance, exclusion</strong></p>
+<h1>Session 5 — Instrumental variables and regression discontinuity</h1>
+<p><strong>Borrowing a randomizer, finding a lottery at the cutoff</strong></p>
 <!-- Date: TBA -->
-<p>Endogeneity as a structural problem and the logic of two-stage least squares. The three assumptions (relevance, exclusion, monotonicity) and their epistemic status: two of them can be defended only through argument. What an instrument actually estimates: the LATE, compliers, and the problem of the target population, with an explicit return to the effect heterogeneity discussed in Session 3. Weak instruments and finite-sample bias. A critical review of the instruments most widely used in political science (weather, historical instruments, shift-share) and of the critiques they have attracted. Experimental encouragement designs and regression discontinuity as special cases.</p>
+<p>Two designs that use only the part of the treatment assigned by something outside the units’ choices. Instrumental variables: the logic of the instrument as a “mould” that isolates exogenous variation, with a return to experiments with non-compliance from Session 3; first stage, reduced form and the Wald estimator; two-stage least squares. The three assumptions (relevance, exclusion, monotonicity) and their epistemic status: only relevance can be checked in the data. What an instrument estimates: the LATE and the compliers, and a return to the effect heterogeneity of Session 3. Weak instruments, the first-stage F-statistic and Anderson–Rubin intervals. Instruments used in political science (weather, draft lotteries, encouragements, shift-share) and their critiques; why Foos and Bischof (Session 4) do not instrument newspaper readership with the boycott. Regression discontinuity: running variable, cutoff and bandwidth; continuity as the identifying assumption; close elections and population thresholds; estimation by local linear regression, the bandwidth trade-off, placebo outcomes and density tests. Fuzzy RDD as an instrumental-variables design at the cutoff. What both designs estimate, and the role of qualitative knowledge of the assignment process.</p>
 <!-- ::: lab -->
-<!-- **STATA lab:** `ivregress 2sls` and `estat firststage`; first-stage F-statistic and weak-instrument tests; systematic comparison of OLS and IV estimates. -->
+<!-- **STATA lab:** IV — first stage, reduced form and Wald estimate by hand, `ivregress 2sls` and `estat firststage` (Cai, de Janvry & Sadoulet 2015). RDD — binned plot, sharp RDD by OLS with interactions and a triangular kernel, bandwidth sensitivity, placebo outcomes (Manacorda, Miguel & Vigorito 2011). Optional: `weakiv`, `rdrobust`, `rddensity`. -->
 <!-- ::: -->
-<!-- ### Materials -->
-<!-- *Slides, do-file and data will be posted here.* -->
-<!-- <!-- ### [Slides Session 5](LINK "Slides Session 5") -->
-<p>–&gt; <!-- <!-- - [Do-file](LINK) --> –&gt; <!-- <!-- - [Data](LINK) --> –&gt;</p>
-<!-- ### Required readings -->
-<!-- -   Huntington-Klein, N. (2022). *The Effect*. CRC Press, ch. 19. Open access: <https://theeffectbook.net> -->
-<!-- -   Sovey, A. J., & Green, D. P. (2011). Instrumental Variables Estimation in Political Science: A Readers' Guide. *American Journal of Political Science*, 55(1), 188–200. <https://doi.org/10.1111/j.1540-5907.2010.00477.x> -->
-<!-- ### Optional readings -->
-<!-- -   Lal, A., Lockhart, M., Xu, Y., & Zu, Z. (2024). How Much Should We Trust Instrumental Variable Estimates in Political Science? Practical Advice Based on 67 Replicated Studies. *Political Analysis*, 32(4), 521–540. Preprint: <https://arxiv.org/abs/2303.11399> -->
-<!-- -   Mellon, J. (2024). Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations for Studies Using Weather as an Instrumental Variable. *American Journal of Political Science* (online first). -->
+<section id="materials-4" class="level3">
+<h3 class="anchored" data-anchor-id="materials-4">Materials</h3>
+<p><em>Slides, do-file and data will be posted here.</em></p>
+</section>
+<section id="material-session-5" class="level3">
+<h3 class="anchored" data-anchor-id="material-session-5"><a href="https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQA1JDGNFKz7TqwhyW_b-jDYAQJ-cK1HFprZwTALp-vkTzQ?e=cnU6fi" title="Material Session 5">Material Session 5</a></h3>
+</section>
+<section id="required-readings-2" class="level3">
+<h3 class="anchored" data-anchor-id="required-readings-2">Required readings</h3>
+<ul>
+<li>Huntington-Klein, N. (2022). <em>The Effect: An Introduction to Research Design and Causality</em>. CRC Press, chs.&nbsp;19 and 20. Open access: <a href="https://theeffectbook.net" class="uri">https://theeffectbook.net</a></li>
+</ul>
+</section>
 </section>
 <section id="session-6" class="level1">
 <h1>Session 6 — From numbers to cases</h1>
