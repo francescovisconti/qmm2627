@@ -175,6 +175,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#working-with-replicable-code" id="toc-working-with-replicable-code" class="nav-link" data-scroll-target="#working-with-replicable-code">Working with replicable code</a></li>
   </ul></li>
   <li><a href="#open-access-texts" id="toc-open-access-texts" class="nav-link" data-scroll-target="#open-access-texts">Open-access texts</a></li>
+  <li><a href="#data-used-in-the-labs" id="toc-data-used-in-the-labs" class="nav-link" data-scroll-target="#data-used-in-the-labs">Data used in the labs</a></li>
   <li><a href="#stata-documentation" id="toc-stata-documentation" class="nav-link" data-scroll-target="#stata-documentation">Stata documentation</a></li>
   </ul>
 </nav>
@@ -203,25 +204,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="software" class="level1">
 <h1>Software</h1>
-<p>All labs use <strong>STATA</strong> on your own laptop. Stata 17 or later is required (<code>xtdidregress</code>, used in Session 4, was introduced in Stata 17).</p>
+<p>All labs use <strong>STATA</strong> on your own laptop. The course do-files use official Stata commands (<code>regress</code>, <code>teffects</code>, <code>sem</code>, <code>xtreg</code>, <code>ivregress</code>, <code>margins</code>, <code>permute</code>). If your Stata is older than the version declared at the top of a do-file (<code>version ...</code>), change that line to your own version.</p>
 <section id="user-written-packages" class="level2">
 <h2 class="anchored" data-anchor-id="user-written-packages">User-written packages</h2>
-<p>Please install the following packages <strong>before the first session</strong>. Run the block once from the Stata command window or a do-file:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>* Session 1 — sensitivity analysis</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install sensemakr, <span class="kw">replace</span></span>
+<p>Only one user-written command is used in the labs (<code>fre</code>, Session 2, which <code>tab1</code> can replace); the others are optional conveniences mentioned in the do-files:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>* Session 2 — <span class="kw">frequency</span> tables with labels (<span class="kw">or</span> <span class="kw">use</span> <span class="kw">tab1</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install fre, <span class="kw">replace</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>* Session 3 — randomization inference</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install ritest, <span class="kw">replace</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>* Sessions 3 and 4 — coefficient plots</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install coefplot, <span class="kw">replace</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>* Session 4 — heterogeneity-<span class="kw">robust</span> DiD and event-study plots</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install drdid, <span class="kw">replace</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install csdid, <span class="kw">replace</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install did_imputation, <span class="kw">replace</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install event_plot, <span class="kw">replace</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>* Session 5 — additional IV diagnostics</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install ranktest, <span class="kw">replace</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install ivreg2, <span class="kw">replace</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>* Session 4 — fast regressions with many fixed <span class="kw">effects</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install ftools, <span class="kw">replace</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="kw">ssc</span> install reghdfe, <span class="kw">replace</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>If <code>ssc install</code> fails on the university network, try again from a different connection or download the package files from <a href="https://ideas.repec.org/s/boc/bocode.html">SSC</a> and install them with <code>net install</code>.</p>
 </section>
 <section id="working-with-replicable-code" class="level2">
@@ -257,12 +252,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Cunningham, S. (2021). <em>Causal Inference: The Mixtape</em>. <a href="https://mixtape.scunning.com" class="uri">https://mixtape.scunning.com</a></li>
 </ul>
 </section>
+<section id="data-used-in-the-labs" class="level1">
+<h1>Data used in the labs</h1>
+<p>The data are distributed with the materials of each session. Most are teaching versions of published replication datasets.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 26%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Session</th>
+<th>Data</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Simulated data from a known causal diagram</td>
+<td>Created in the do-file</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Role of government items, NLSY97</td>
+<td>Acock (2013), ch.&nbsp;1 and sec.&nbsp;5.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Anchoring vignettes; list experiment; social pressure and turnout</td>
+<td>King et al.&nbsp;(2004); Blair, Imai &amp; Lyall (2014); Gerber, Green &amp; Larimer (2008), as in Imai &amp; Bougher (2021)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td>Immigration conjoint</td>
+<td>Hainmueller, Hopkins &amp; Yamamoto (2014)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4</td>
+<td>Minimum wage in New Jersey and Pennsylvania</td>
+<td>Card &amp; Krueger (1994), as in Imai &amp; Bougher (2021)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5</td>
+<td>College proximity and earnings</td>
+<td>Card (1995), as in Cunningham (2021)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5, 6</td>
+<td>Wealth at death of British MP candidates</td>
+<td>Eggers &amp; Hainmueller (2009), as in Imai &amp; Bougher (2021)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td>Life expectancy and income, 1998</td>
+<td>Shipped with Stata: <code>sysuse lifeexp</code></td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="stata-documentation" class="level1">
 <h1>Stata documentation</h1>
 <ul>
 <li>Stata manuals (PDF, all volumes): <a href="https://www.stata.com/features/documentation/" class="uri">https://www.stata.com/features/documentation/</a></li>
-<li><em>Stata Structural Equation Modeling Reference Manual</em> — for Session 2.</li>
-<li><em>Stata Treatment-Effects Reference Manual</em> — for Sessions 1, 4 and 5 (<code>teffects</code>, <code>didregress</code>/<code>xtdidregress</code>).</li>
+<li><em>Stata Treatment-Effects Reference Manual</em> — for Session 1 (<code>teffects</code>, <code>tebalance</code>).</li>
+<li><em>Stata Structural Equation Modeling Reference Manual</em> — for Session 2 (<code>sem</code>, <code>estat gof</code>, <code>estat mindices</code>).</li>
+<li><em>Stata Base Reference Manual</em> — for Sessions 3 and 5 (<code>regress</code>, <code>margins</code>, <code>permute</code>, <code>ivregress</code>).</li>
+<li><em>Stata Longitudinal-Data/Panel-Data Reference Manual</em> — for Session 4 (<code>xtreg</code>).</li>
 </ul>
 
 
