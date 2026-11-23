@@ -15,7 +15,7 @@ subtitle: "Academic year 2026-2027 - Second year - First semester"
 
 This course offers advanced training in quantitative methods applied to research in the social sciences, with particular reference to political science and political sociology. Designed as an operational masterclass, it aims to strengthen doctoral candidates' analytical skills through the direct application of statistical tools and reflection on methodological choices in their own research projects.
 
-The course is conceived as a cumulative extension of the first-year course in Quantitative Methods: it starts again from regression and progressively complicates what students already know — moving from "controlling for" to identification, from exploratory to confirmatory measurement models, from fixed effects to difference-in-differences, and from the experimental benchmark to instrumental variables — before closing on the integration of quantitative and qualitative evidence.
+The course is conceived as a cumulative extension of the first-year course in Quantitative Methods: it starts again from regression and progressively complicates what students already know — moving from "controlling for" to identification, from exploratory to confirmatory measurement models, from fixed effects to difference-in-differences, and from the experimental benchmark to regression discontinuity and instrumental variables — before closing on the integration of quantitative and qualitative evidence.
 
 # Learning outcomes
 
@@ -25,12 +25,12 @@ Students will acquire advanced knowledge of quantitative techniques applied to t
 
 1.  the conditions under which a regression model can be given a causal interpretation;
 2.  measurement models for latent constructs (CFA, SEM, measurement invariance);
-3.  the identifying logic of experiments, difference-in-differences and instrumental variables;
-4.  the main strategies for integrating quantitative and qualitative methods.
+3.  the identifying logic of experiments, difference-in-differences, regression discontinuity and instrumental variables;
+4.  the main strategies for integrating quantitative and qualitative methods, including the selection of cases after a regression.
 
 ## Applying knowledge and understanding
 
-Students will be able to understand advanced quantitative methods relevant to their doctoral dissertations or research projects, and to specify, estimate, diagnose and interpret in STATA a measurement model, a difference-in-differences design and an instrumental variables estimation, reporting the results according to disciplinary standards.
+Students will be able to understand advanced quantitative methods relevant to their doctoral dissertations or research projects, and to specify, estimate, diagnose and interpret in STATA a measurement model, a difference-in-differences design, a regression discontinuity design and an instrumental variables estimation, reporting the results according to disciplinary standards.
 
 ## Making judgements
 
@@ -66,10 +66,10 @@ The approach is replication-based: students work with data and do-files they can
 | Session | Topic |
 |:-------:|-------|
 | 1 | [Beyond control variables: regression, identification and selection on observables](sessions.qmd#session-1) |
-| 2 | [Measuring concepts: from EFA to CFA, SEM and measurement equivalence](sessions.qmd#session-2) |
+| 2 | [Measuring concepts: from indices to confirmatory factor analysis, and measurement invariance](sessions.qmd#session-2) |
 | 3 | [The experimental benchmark: experiments, survey experiments and conjoint designs](sessions.qmd#session-3) |
-| 4 | [From fixed effects models to difference-in-differences](sessions.qmd#session-4) |
-| 5 | [Instrumental variables: endogeneity, relevance, exclusion](sessions.qmd#session-5) |
+| 4 | [From fixed effects to difference-in-differences](sessions.qmd#session-4) |
+| 5 | [Regression discontinuity and instrumental variables](sessions.qmd#session-5) |
 | 6 | [From numbers to cases: multi-method research, mechanisms and transparency](sessions.qmd#session-6) |
 
 # Reference books
@@ -82,10 +82,13 @@ The course relies on papers and chapters from various authors. The required read
 Further reference texts:
 
 -   Acock, A. C. (2013). *Discovering Structural Equation Modeling Using Stata*. College Station: Stata Press.
+-   Imai, K., & Bougher, L. D. (2021). *Quantitative Social Science: An Introduction in Stata*. Princeton: Princeton University Press.
 -   Kline, R. B. (2023). *Principles and Practice of Structural Equation Modeling* (5th ed.). New York: Guilford Press.
 -   Angrist, J. D., & Pischke, J.-S. (2015). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton: Princeton University Press.
 -   Mutz, D. C. (2011). *Population-Based Survey Experiments*. Princeton: Princeton University Press.
+-   Dunning, T. (2012). *Natural Experiments in the Social Sciences: A Design-Based Approach*. Cambridge: Cambridge University Press.
 -   Druckman, J. N., & Green, D. P. (eds.) (2021). *Advances in Experimental Political Science*. Cambridge: Cambridge University Press.
+-   Seawright, J. (2016). *Multi-Method Social Science: Combining Qualitative and Quantitative Tools*. Cambridge: Cambridge University Press.
 -   Goertz, G. (2017). *Multimethod Research, Causal Mechanisms, and Case Studies: An Integrated Approach*. Princeton: Princeton University Press.
 -   StataCorp (2025). *Stata Structural Equation Modeling Reference Manual*. College Station: Stata Press.
 

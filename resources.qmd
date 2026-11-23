@@ -4,28 +4,22 @@ title: "Resources"
 
 # Software
 
-All labs use **STATA** on your own laptop. Stata 17 or later is required (`xtdidregress`, used in Session 4, was introduced in Stata 17).
+All labs use **STATA** on your own laptop. The course do-files use official Stata commands (`regress`, `teffects`, `sem`, `xtreg`, `ivregress`, `margins`, `permute`). If your Stata is older than the version declared at the top of a do-file (`version ...`), change that line to your own version.
 
 ## User-written packages
 
-Please install the following packages **before the first session**. Run the block once from the Stata command window or a do-file:
+Only one user-written command is used in the labs (`fre`, Session 2, which `tab1` can replace); the others are optional conveniences mentioned in the do-files:
 
 ``` stata
-* Session 1 — sensitivity analysis
-ssc install sensemakr, replace
+* Session 2 — frequency tables with labels (or use tab1)
+ssc install fre, replace
 
-* Session 3 — randomization inference
-ssc install ritest, replace
+* Sessions 3 and 4 — coefficient plots
+ssc install coefplot, replace
 
-* Session 4 — heterogeneity-robust DiD and event-study plots
-ssc install drdid, replace
-ssc install csdid, replace
-ssc install did_imputation, replace
-ssc install event_plot, replace
-
-* Session 5 — additional IV diagnostics
-ssc install ranktest, replace
-ssc install ivreg2, replace
+* Session 4 — fast regressions with many fixed effects
+ssc install ftools, replace
+ssc install reghdfe, replace
 ```
 
 If `ssc install` fails on the university network, try again from a different connection or download the package files from [SSC](https://ideas.repec.org/s/boc/bocode.html) and install them with `net install`.
@@ -64,8 +58,25 @@ Set `version` to the Stata version you use, always set a seed when results depen
 -   Huntington-Klein, N. (2022). *The Effect: An Introduction to Research Design and Causality*. <https://theeffectbook.net>
 -   Cunningham, S. (2021). *Causal Inference: The Mixtape*. <https://mixtape.scunning.com>
 
+# Data used in the labs
+
+The data are distributed with the materials of each session. Most are teaching versions of published replication datasets.
+
+| Session | Data | Source |
+|:-------:|------|--------|
+| 1 | Simulated data from a known causal diagram | Created in the do-file |
+| 2 | Role of government items, NLSY97 | Acock (2013), ch. 1 and sec. 5.3 |
+| 3 | Anchoring vignettes; list experiment; social pressure and turnout | King et al. (2004); Blair, Imai & Lyall (2014); Gerber, Green & Larimer (2008), as in Imai & Bougher (2021) |
+| 3 | Immigration conjoint | Hainmueller, Hopkins & Yamamoto (2014) |
+| 4 | Minimum wage in New Jersey and Pennsylvania | Card & Krueger (1994), as in Imai & Bougher (2021) |
+| 5 | College proximity and earnings | Card (1995), as in Cunningham (2021) |
+| 5, 6 | Wealth at death of British MP candidates | Eggers & Hainmueller (2009), as in Imai & Bougher (2021) |
+| 6 | Life expectancy and income, 1998 | Shipped with Stata: `sysuse lifeexp` |
+
 # Stata documentation
 
 -   Stata manuals (PDF, all volumes): <https://www.stata.com/features/documentation/>
--   *Stata Structural Equation Modeling Reference Manual* — for Session 2.
--   *Stata Treatment-Effects Reference Manual* — for Sessions 1, 4 and 5 (`teffects`, `didregress`/`xtdidregress`).
+-   *Stata Treatment-Effects Reference Manual* — for Session 1 (`teffects`, `tebalance`).
+-   *Stata Structural Equation Modeling Reference Manual* — for Session 2 (`sem`, `estat gof`, `estat mindices`).
+-   *Stata Base Reference Manual* — for Sessions 3 and 5 (`regress`, `margins`, `permute`, `ivregress`).
+-   *Stata Longitudinal-Data/Panel-Data Reference Manual* — for Session 4 (`xtreg`).

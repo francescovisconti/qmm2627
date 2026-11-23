@@ -10,7 +10,7 @@ The final grade is expressed in thirtieths (/30). The pass mark is 18/30 and the
 |-----------|:------:|--------|
 | Participation | 10% | All sessions |
 | Assignment 1 — *Measure and control* | 20% | Sessions 1–2 |
-| Assignment 2 — *Replicate and assess* | 20% | Sessions 3–5 |
+| Assignment 2 — *Design or assess?* | 20% | Sessions 3–5 |
 | Final paper | 50% | One method of the course applied to your own research |
 
 # Participation (10%)
@@ -19,12 +19,12 @@ Attendance and active engagement in class discussions. Come to class having read
 
 # Assignments (40%, 20% each)
 
-Two papers of **1,000 words max**, each accompanied by a **do-file that fully reproduces the results**.
+Two short papers, each built around your own doctoral project: a causal relationship, a concept or a causal claim that your thesis analyses, assumes or builds on. Each assignment offers a choice of tracks; most tracks are theoretical and need no data or software.
 
-1.  **Measure and control** (Sessions 1–2).
-2.  **Replicate and assess** (Sessions 3–5).
+1.  **Measure and control** (Sessions 1–2), **1,000 words max**. Three tracks: *Control*, a causal diagram for a causal question from your thesis and the controls it implies; *Measure on paper*, a measurement design for a concept from your research; *Measure with data*, a confirmatory factor analysis in Stata on real survey data, following the Session 2 lab (with a do-file and the dataset).
+2.  **Design or assess?** (Sessions 3–5), **800 words max**. Two tracks: *Design*, a study on paper that could answer a causal question from your thesis with one of the designs of Sessions 3–5 (an experiment, a natural experiment, difference-in-differences, an instrumental variable or a regression discontinuity); *Assess*, a judgement of how far the design of one published study supports its causal claim. Replicating the published analysis is optional.
 
-Assignments are assessed on the correctness of the analysis, the quality of the justification of choices, the reproducibility of the code and the clarity of presentation.
+Assignments are assessed on the correct use of the tools, the quality of the justification of each choice, transparency and clarity.
 
 <!-- Detailed instructions for each assignment: add links here when available
 - [Assignment 1 — instructions](LINK)
@@ -39,12 +39,12 @@ A methodological paper of **up to 3,000 words** in which students apply one of t
 -   state the identifying assumptions;
 -   discuss their plausibility in the student's case.
 
-Reproducibility is also assessed: the paper must be accompanied by code and data, or by instructions for obtaining them. Students present the design of their final paper in the workshop held during Session 6.
+Reproducibility is also assessed: the paper must be accompanied by code and data, or by instructions for obtaining them. Students present the design of their final paper in the workshop held during Session 6: three minutes each, no slides, covering the question, the method and the data, the identifying assumption, the evidence for it, and what a case study would add.
 
 # Deadlines
 
 | Deliverable | Due |
 |-------------|-----|
-| Assignment 1 — *Measure and control* | By week 4 |
-| Assignment 2 — *Replicate and assess* | By week 6 |
+| Assignment 1 — *Measure and control* | 29 October 2026, 12:00 |
+| Assignment 2 — *Design or assess?* | 6 December 2026, 23:59, by email |
 | Final paper | Within four weeks of the last session |
