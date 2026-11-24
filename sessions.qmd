@@ -195,7 +195,7 @@ Two designs that use only the part of the treatment assigned by something outsid
 
 <!-- Date: TBA -->
 
-What a well-identified estimate still cannot tell us: the mechanism, the measurement, the assumptions and the scope. Integration, not triangulation: one method gives the answer, the other does a specific job for it. Six ways of combining methods: qualitative work first; nested analysis, with cases chosen from a regression (Lieberman 2005; Mattingly 2016); cases for measurement; cases for mechanisms and the tests of process tracing; cases for identifying assumptions, a recap of Sessions 3–5; numbers inside a case study. Common ways to get it wrong. Case selection after a regression: typical, diverse, extreme, deviant, influential, most similar and most different cases, and what each is good for (Seawright & Gerring 2008). Transparency in the quantitative and the qualitative strand, and in their combination. The course in one slide.
+What a well-identified estimate still cannot tell us: the mechanism, the measurement, the assumptions and the scope. Integration, not triangulation: one method gives the answer, the other does a specific job for it. Six ways of combining methods, grouped by the three core designs of mixed methods research (Creswell & Plano Clark 2017). *Exploratory sequential* (qual → QUAN): qualitative work first builds the quantitative study (Enosh et al. 2014; anchoring vignettes). *Explanatory sequential* (QUAN → qual): nested analysis, with cases chosen from a regression (Lieberman 2005; Mattingly 2016); off the line, cases check the measurement (Kreuzer 2010); on the line, process tracing looks for the mechanism (the British MPs of Session 5). *Convergent* (QUAN + qual): case knowledge for the identifying assumptions, a recap of Sessions 3–5; a quantitative test inside a case study (Nugent 2020). Common ways to get it wrong. Case selection after a regression: typical, diverse, extreme, deviant, influential, most similar and most different cases, and what each is good for (Seawright & Gerring 2008). Transparency in the quantitative and the qualitative strand, and in their combination. The course in one slide.
 
 **The session includes a workshop in which students present the design of their final paper.**
 
@@ -207,7 +207,7 @@ What a well-identified estimate still cannot tell us: the mechanism, the measure
 
 *Slides, do-file and data will be posted here.*
 
-<!-- ### [Material Session 6](LINK "Material Session 6") -->
+### [Material Session 6](https://luiss-my.sharepoint.com/:u:/g/personal/fvisconti_luiss_it/IQDlK6sLm40ZRI5gEwiRHl5JAcpJO0yd42WSqwvwYLmUvQw?e=iUxfQz "Material Session 6")
 
 ### Required readings
 
@@ -217,11 +217,14 @@ What a well-identified estimate still cannot tell us: the mechanism, the measure
 
 ### Optional readings
 
+-   Creswell, J. W., & Plano Clark, V. L. (2017). *Designing and Conducting Mixed Methods Research* (3rd ed.). Sage, ch. 3 (the core designs).
 -   Goertz, G. (2017). *Multimethod Research, Causal Mechanisms, and Case Studies*. Princeton University Press, chs. 1–2.
 -   Weller, N., & Barnes, J. (2014). *Finding Pathways: Mixed-Method Research for Studying Causal Mechanisms*. Cambridge University Press, ch. 1.
 
 ### Applications
 
--   Mattingly, D. C. (2016). Elite Capture: How Decentralization and Informal Institutions Weaken Property Rights in China. *World Politics*, 68(3), 383–412.
--   Kreuzer, M. (2010). Historical Knowledge and Quantitative Analysis: The Case of the Origins of Proportional Representation. *American Political Science Review*, 104(2), 369–392.
--   Eggers, A. C., & Hainmueller, J. (2009). MPs for Sale? Returns to Office in Postwar British Politics. *American Political Science Review*, 103(4), 513–533.
+-   Enosh, G., Tzafrir, S. S., & Stolovy, T. (2014). The Development of Client Violence Questionnaire (CVQ). *Journal of Mixed Methods Research*, 9(3), 273–290. <https://doi.org/10.1177/1558689814525263> (exploratory sequential)
+-   Mattingly, D. C. (2016). Elite Capture: How Decentralization and Informal Institutions Weaken Property Rights in China. *World Politics*, 68(3), 383–412. (explanatory sequential)
+-   Kreuzer, M. (2010). Historical Knowledge and Quantitative Analysis: The Case of the Origins of Proportional Representation. *American Political Science Review*, 104(2), 369–392. (explanatory sequential: cases for measurement)
+-   Eggers, A. C., & Hainmueller, J. (2009). MPs for Sale? Returns to Office in Postwar British Politics. *American Political Science Review*, 103(4), 513–533. (explanatory sequential: cases for mechanisms)
+-   Nugent, E. R. (2020). The Psychology of Repression and Polarization. *World Politics*, 72(2), 291–334. <https://doi.org/10.1017/S0043887120000015> (convergent)
